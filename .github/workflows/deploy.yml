@@ -53,7 +53,7 @@ jobs:
             - name: Upload Artifact
               uses: actions/upload-pages-artifact@v3
               with:
-                  path: "./dist"
+                  path: "./docs"
 
             - name: Deploy
               id: deployment
