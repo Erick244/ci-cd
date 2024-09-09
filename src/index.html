@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>CI/CD</title>
+        <style>
+            body {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                gap: 10px;
+                height: 100vh;
+                background-color: #f1f1f1;
+                font-family: Arial, sans-serif;
+            }
+
+            input {
+                width: 50px;
+                height: 20px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>CI/CD Testing</h1>
+        <div>
+            <input type="number" id="number1" value="0" />
+            <span>+</span>
+            <input type="number" id="number2" value="0" />
+            <span>=</span>
+            <span id="result">0</span>
+        </div>
+
+        <button id="submit">Calculate</button>
+    </body>
+    <script type="module" src="./script.js"></script>
+</html>
